@@ -1,5 +1,5 @@
 # Monocular Depth Estimation
-![](./mono_depth_est/results/2.png)
+![](./results/2.png)
 
 The underlying rationale of this problem of monocular depth estimation is inspired by the possibility of
 human depth perception from single images. 
