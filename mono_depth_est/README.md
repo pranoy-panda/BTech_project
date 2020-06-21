@@ -15,6 +15,7 @@ Now, in order to improve upon currently existing(i.e. in 2019) deep learning bas
 
 ### Network architecture
 ![](./net.png )
+
 Implementation of the network architecture is available [here](https://github.com/pranoy-panda/BTech_project/blob/master/mono_depth_est/autoencoder_architectures/__init__.py)
 
 ### Loss function
@@ -30,7 +31,7 @@ map) and ŷ (estimated depth map) as the weighted sum of two loss functions:
 
 ![](./loss.png)
 
-Implementation of custom loss function available [here](https://github.com/pranoy-panda/BTech_project/blob/master/mono_depth_est/custom_loss_functions/__init__.py)
+Implementation of custom loss function is available [here](https://github.com/pranoy-panda/BTech_project/blob/master/mono_depth_est/custom_loss_functions/__init__.py)
 
 ### Data Augmentation Policy
 NYU Depth v2 contains 1449 densely labelled pairs of aligned RGB and depth images. We train our method on the entire dataset with data augmentation. The data augmentation schemes used in our work are as follows: horizontal
@@ -45,7 +46,7 @@ We implemented our proposed depth estimation network using pyTorch and trained
 on NVIDIA Tesla k80 GPU with 12GB memory via the Google colaboratory (free to use servers for training machine learning models). The weights for the network are randomly initialized following Xavier initialization. In all experiments,
 we used the ADAM optimizer with initial learning rate 0.0001. The batch size is set to 16. The total number of trainable parameters for the entire network is approximately 0.5M parameters.
 
-Implementation of the assemplby code for gpu available [here](https://github.com/pranoy-panda/BTech_project/blob/master/mono_depth_est/train_gpu.py)
+Implementation of the assembled code(for gpu) available [here](https://github.com/pranoy-panda/BTech_project/blob/master/mono_depth_est/train_gpu.py)
 
 ### Acknowledgement
 Big thanks to Google for providing free access to GPU servers.
