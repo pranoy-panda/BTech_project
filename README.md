@@ -9,7 +9,7 @@ Our approach deals with the task of obstacle avoidance as a two step process. Th
 mapping the information from depth map to control command for the robot. *The novelty in this work is present mainly in the 1st stage of the pipeline i.e. monocular depth estimation.*
 
 ### 1. Monocular depth estimation for scene representation
-![](./1.png )
+![](./mono_depth_est/results/1.png )
 
 This stage of the pipeline of our project focused on generating a representation of the scene and then feeding it as an input to a control algorithm. More information regarding this section can be found [here](https://github.com/pranoy-panda/BTech_project/blob/master/mono_depth_est/README.md#my-projects-readme)
 
